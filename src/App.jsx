@@ -75,7 +75,7 @@ function App() {
           </div>
         </div>
       )}
-      {error ? <p>Fuck you bro</p> : null}
+      {error ? <p className="flex justify-center font1 text-2xl">Emojis are not available at the moment</p> : null}
 
       <div className="flex justify-center">
         <div className="grid grid-cols-3 md:grid-cols-6 gap-x-10 md:gap-x-20 gap-y-10 w-3/4 mb-40">
